@@ -1080,7 +1080,7 @@ fu! s:Utl_checkMediaType(path)
 	let mt = 'image/tiff'
     elseif ext==?'gif' || ext==?'gif'
 	let mt = 'image/gif'
-    elseif ext==?'mp2' || ext==?'mpe' || ext==?'mpeg' || ext==?'mpg'
+    elseif ext==?'mp4' || ext==?'mp2' || ext==?'mpe' || ext==?'mpeg' || ext==?'mpg'
 	let mt = 'video/mpeg'
 
     " id=texthtml
