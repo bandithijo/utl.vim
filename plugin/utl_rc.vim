@@ -306,12 +306,24 @@ let utl__file_rc =    expand("<sfile>")	    " Do not remove this line
     "	     let g:utl_cfg_hdl_mt_application_postscript = ':!xterm -e gs %p &'
     "endif
 
+    "if !exists("g:utl_cfg_hdl_mt_video_mpeg")
+    "	     let g:utl_cfg_hdl_mt_video_mpeg =	    ':silent !mpv %p &'
+    "endif
+
     "if !exists("g:utl_cfg_hdl_mt_audio_mpeg")
     "	     let g:utl_cfg_hdl_mt_audio_mpeg =	    ':silent !xmms %p &'
     "endif
 
     "if !exists("g:utl_cfg_hdl_mt_image_jpeg")
-    "	     let g:utl_cfg_hdl_mt_image_jpeg = ':!xnview %p &'
+    "	     let g:utl_cfg_hdl_mt_image_jpeg = ':!sxiv %p &'
+    "endif
+
+    "if !exists("g:utl_cfg_hdl_mt_image_png")
+    "	     let g:utl_cfg_hdl_mt_image_png = ':!sxiv %p &'
+    "endif
+
+    "if !exists("g:utl_cfg_hdl_mt_image_gif")
+    "	     let g:utl_cfg_hdl_mt_image_gif = ':!sxiv %p &'
     "endif
 
     "}
