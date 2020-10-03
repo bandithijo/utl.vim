@@ -1072,6 +1072,8 @@ fu! s:Utl_checkMediaType(path)
         let mt = 'application/zip'
     elseif ext==?'mp3' || ext==?'mp2' || ext==?'mpga'
         let mt = 'audio/mpeg'
+    elseif ext==?'opus' || ext==?'ogg' || ext==?'oga' || ext==?'ogv'
+        let mt = 'audio/ogg'
     elseif ext==?'png'
         let mt = 'image/png'
     elseif ext==?'jpeg' || ext==?'jpg' || ext==?'jpe'  || ext==?'jfif'
